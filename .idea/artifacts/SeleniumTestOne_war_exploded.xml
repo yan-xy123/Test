@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SeleniumTestOne:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SeleniumTestOne_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SeleniumTestOne" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: junit:junit:4.12" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/client-combined-3.141.59.jar" />
+          <element id="library" level="project" name="byte-buddy-1.8.15" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="SeleniumTestOne/web/Web" />
+    </root>
+  </artifact>
+</component>
